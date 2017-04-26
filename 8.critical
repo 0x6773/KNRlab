@@ -1,9 +1,0 @@
-[x,y] = meshgrid(-1:0.2:1, -1:0.2:1)
-
-xdot = -x -x * y.^2
-ydot = -y -y * x.^2
-
-quiver(x,y,xdot,ydot)
-xlabel('x')
-ylabel('y')
-title('Phase Portraits for the fcking problem')
